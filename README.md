@@ -12,6 +12,8 @@ YakuHanJP と NotoSansJP サブセットをマージして `./fonts/export/NotoS
 
 Google フォントの API で必要なテキストを指定してフォントをダウンロード。YakuHanJP を CDN からダウンロード。2 つを node.js 上でマージさせる...つもりでしたがマージする npm ライブラリが動いていません。node@18 と node@16 で試しましたがエラーを吐いています。未完成。
 
+実際に動いた場合のメリットは最低限の要領で住むこと。デメリットは Google フォントの API を毎回叩いても大丈夫なのか不明なのと、マージ後ファイルの検証ができないこと。
+
 ## License
 
 - yakuhanjp-merge : MIT
